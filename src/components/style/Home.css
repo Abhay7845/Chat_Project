@@ -1,0 +1,92 @@
+.ChatsStyle {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+.ChatsStyle:hover {
+  cursor: pointer;
+  background-color: #f3f3f5f8;
+}
+.productImg {
+  height: 45px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.discription {
+  width: 100%;
+  margin-left: 18px;
+}
+.PNameDate {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.proDate {
+  font-size: 10px;
+  color: gray;
+}
+.proName {
+  font-size: 14px;
+}
+.proId {
+  font-size: 12px;
+  margin-top: -5px;
+}
+.proMesaage {
+  font-size: 10px;
+  color: gray;
+  margin-top: -2px;
+}
+
+/* SECONF COLLUM */
+.productHeading {
+  background-color: #edeff0d4;
+  width: 105.9%;
+  margin-left: -24px;
+  padding: 10px;
+  display: flex;
+  position: fixed;
+}
+.ChatMessage {
+  margin-top: 10.8%;
+  height: 100vh;
+  width: 105.9%;
+  margin-left: -24px;
+}
+
+.chatMessageBox {
+  position: absolute;
+  top: 90%;
+  position: fixed;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.chatInput {
+  width: 95%;
+  padding: 8px;
+  outline: none;
+  background-color: #eceaea;
+  border-radius: 5px;
+  border: none;
+}
+.sendBtn {
+  margin-top: 1%;
+  font-size: 28px;
+  color: #0000ffab;
+  cursor: pointer;
+}
+.sendBtn2 {
+  margin-top: 1%;
+  font-size: 28px;
+  color: gray;
+  cursor: no-drop;
+}
+.chatStyle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+}
